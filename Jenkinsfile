@@ -31,12 +31,7 @@ pipeline {
             steps {
                 script {
                     sh "docker-compose -f docker-compose.yaml -f docker-compose.gamma.yaml up -d"
-                }
-            }
-        }
-
-        stage('Gamma Health Check') {
-            steps {
+                },
                 script {
                     sh "sleep 10" // Wait for the application to start
                     def response = sh(script: "curl -s -o /dev/null -w '%{http_code}' http://localhost:${GAMMA_PORT}/health", returnStdout: true).trim()
@@ -52,12 +47,7 @@ pipeline {
                 input "Deploy to Production?"
                 script {
                     sh "docker-compose -f docker-compose.yaml -f docker-compose.prod.yaml up -d"
-                }
-            }
-        }
-
-        stage('Production Health Check') {
-            steps {
+                },
                 script {
                     sh "sleep 10" // Wait for the application to start
                     def response = sh(script: "curl -s -o /dev/null -w '%{http_code}' http://localhost:${PROD_PORT}/health", returnStdout: true).trim()
