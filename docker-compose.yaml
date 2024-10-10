@@ -1,0 +1,18 @@
+version: '3'
+services:
+  quick_serve:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: quick_serve:latest
+    container_name: quick_serve
+    ports:
+      - "8081:8081"
+    volumes:
+      - /mnt/data/quick_serve/files:/app/files
+      - /mnt/data/quick_serve/logs:/app/logs
+    environment:
+      - FLASK_ENV=development
+      - FILES_DIRECTORY=/app/files
+      - LOG_BASE=/app/logs
+    restart: unless-stopped

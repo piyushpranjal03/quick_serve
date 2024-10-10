@@ -1,0 +1,10 @@
+version: '3'
+services:
+  quick_serve:
+    image: quick_serve:production
+    environment:
+      - FLASK_ENV=production
+    ports:
+      - "${PROD_PORT:-8082}:8081"
+    volumes:
+      - /mnt/data/quick_serve/prod/logs:/app/logs

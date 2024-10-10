@@ -1,0 +1,112 @@
+2024-10-10 13:22:31,369:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:22:31,369:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:22:31,369:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:22:31,506:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:22:31,506:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:22:31,506:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:22:39,586:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:22:39,586:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:22:39,586:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:23:13,628:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:23:13,628:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:23:13,628:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:23:28,083:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:23:28,083:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:23:28,083:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:23:45,497:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:23:45,497:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:23:45,497:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:26:06,751:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:26:06,751:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:26:06,751:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:26:28,507:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:26:28,507:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:26:28,507:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:26:42,905:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:26:42,905:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:26:42,905:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:27:02,576:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:27:02,576:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:27:02,576:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:27:18,216:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:27:18,216:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:27:18,216:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:30:07,649:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:30:07,649:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:30:07,650:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:30:17,057:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:30:17,057:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:30:17,057:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:35:53,882:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:35:53,882:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:35:53,882:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:36:04,580:::routes.py:::ERROR:::Error serving file test: 'DIRECTORY'
+2024-10-10 13:37:25,688:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:37:25,688:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:37:25,688:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:38:09,919:::__init__.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:38:09,919:::__init__.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:38:09,919:::__init__.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:39:27,264:::routes.py:::ERROR:::Error serving file test: 'DIRECTORY'
+2024-10-10 13:40:48,850:::run.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:40:48,850:::run.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:40:48,850:::run.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:41:04,985:::routes.py:::ERROR:::Error serving file test: 'DIRECTORY'
+2024-10-10 13:41:25,087:::routes.py:::ERROR:::Error serving file test.txt: 'DIRECTORY'
+2024-10-10 13:43:14,577:::run.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:43:14,577:::run.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:43:14,577:::run.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:43:43,031:::run.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:43:43,031:::run.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:43:43,031:::run.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:45:23,177:::run.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:45:23,177:::run.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:45:23,177:::run.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:45:31,654:::run.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:45:31,654:::run.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:45:31,654:::run.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:45:53,384:::run.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:45:53,384:::run.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:45:53,384:::run.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:45:58,079:::routes.py:::ERROR:::Error serving file test.txt: 'DIRECTORY'
+2024-10-10 13:46:21,390:::run.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:46:21,390:::run.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:46:21,390:::run.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:46:24,482:::routes.py:::ERROR:::Error serving file test.txt: 'DIRECTORY'
+2024-10-10 13:46:38,818:::run.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:46:38,818:::run.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:46:38,818:::run.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:46:40,107:::app.py:::ERROR:::Exception on /files/test.txt [GET]
+Traceback (most recent call last):
+  File "/Users/pppranja/IdeaProjects/quick_serve/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pppranja/IdeaProjects/quick_serve/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pppranja/IdeaProjects/quick_serve/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pppranja/IdeaProjects/quick_serve/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pppranja/IdeaProjects/quick_serve/app/routes.py", line 16, in file_route
+    raise e
+  File "/Users/pppranja/IdeaProjects/quick_serve/app/routes.py", line 11, in file_route
+    return serve_file(filepath)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pppranja/IdeaProjects/quick_serve/app/services.py", line 8, in serve_file
+    base_dir = current_app.config['DIRECTORY']
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'DIRECTORY'
+2024-10-10 13:47:49,265:::run.py:::INFO:::Starting application on port 8081 in development environment
+2024-10-10 13:47:49,265:::run.py:::INFO:::Files will be served from: /Users/pppranja/IdeaProjects/quick_serve/files
+2024-10-10 13:47:49,265:::run.py:::INFO:::Logs will be written to: /Users/pppranja/IdeaProjects/quick_serve/logs/development
+2024-10-10 13:47:51,649:::services.py:::INFO:::Attempting to serve file: test.txt
+2024-10-10 13:47:51,650:::services.py:::INFO:::Serving file: test.txt
+2024-10-10 13:47:53,019:::services.py:::INFO:::Attempting to serve file: test.txt
+2024-10-10 13:47:53,019:::services.py:::INFO:::Serving file: test.txt
+2024-10-10 13:48:03,196:::services.py:::INFO:::Attempting to serve file: test.txt
+2024-10-10 13:48:03,197:::services.py:::INFO:::Serving file: test.txt
+2024-10-10 13:48:06,522:::services.py:::INFO:::Attempting to serve file: test.txt
+2024-10-10 13:48:06,522:::services.py:::INFO:::Serving file: test.txt
