@@ -1,6 +1,11 @@
 pipeline {
     agent any
-    
+
+    triggers {
+        githubPush()
+    }
+
+
     environment {
         DOCKER_IMAGE = 'quick_serve'
         GAMMA_PORT = '8081'
