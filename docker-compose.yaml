@@ -10,7 +10,6 @@ services:
       - "8081:8081"
     volumes:
       - /mnt/data/quick_serve/files:/app/files
-      - /mnt/data/quick_serve/logs:/app/logs
     environment:
       - FLASK_ENV=development
       - FILES_DIRECTORY=/app/files
