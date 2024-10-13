@@ -8,7 +8,7 @@ from app.config import Config
 app = create_app()
 
 # Configure logging
-log_file_path = os.path.join(Config.LOG_DIRECTORY, 'app.log')
+log_file_path = os.path.join(Config.LOG_DIRECTORY)
 file_handler = TimedRotatingFileHandler(log_file_path, when='midnight', interval=1, backupCount=10)
 file_handler.suffix = '%Y-%m-%d'
 file_handler.setFormatter(logging.Formatter('%(asctime)s:::%(filename)s:::%(levelname)s:::%(message)s'))

@@ -7,4 +7,4 @@ services:
     ports:
       - "${PROD_PORT:-8082}:8081"
     volumes:
-      - /mnt/data/quick_serve/prod/logs:/app/logs
+      - /mnt/data/quick_serve/prod/logs:/app/logs/production

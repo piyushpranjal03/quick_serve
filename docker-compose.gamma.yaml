@@ -7,4 +7,4 @@ services:
     ports:
       - "${GAMMA_PORT:-8081}:8081"
     volumes:
-      - /mnt/data/quick_serve/gamma/logs:/app/logs
+      - /mnt/data/quick_serve/gamma/logs:/app/logs/gamma
