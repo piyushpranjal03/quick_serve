@@ -24,15 +24,8 @@ class Config:
     LOG_BASE = os.environ.get('LOG_BASE')
     if not LOG_BASE:
         LOG_BASE = 'logs' if FLASK_ENV == 'development' else os.path.join('app', 'logs')
-    LOG_BASE = os.path.join(PROJECT_ROOT, LOG_BASE)
+    LOG_DIRECTORY = os.path.join(PROJECT_ROOT, LOG_BASE) #Removed environment specific nesting
 
-    # Environment setup
-    if FLASK_ENV == 'gamma':
-        LOG_DIRECTORY = os.path.join(LOG_BASE, 'gamma')
-    elif FLASK_ENV == 'production':
-        LOG_DIRECTORY = os.path.join(LOG_BASE, 'production')
-    else:
-        LOG_DIRECTORY = os.path.join(LOG_BASE, 'development')
 
     # Creating directories if they don't exist
     for directory in [FILES_DIRECTORY, LOG_DIRECTORY]:
