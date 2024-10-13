@@ -5,7 +5,6 @@ pipeline {
         githubPush()
     }
 
-
     environment {
         DOCKER_IMAGE = 'quick_serve'
         GAMMA_PORT = '8081'
@@ -22,7 +21,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh "docker-compose build"
+                    sh "docker build -t ${DOCKER_IMAGE} ."
                 }
             }
         }
@@ -30,12 +29,12 @@ pipeline {
         stage('Gamma') {
             steps {
                 script {
-                    sh "docker-compose -f docker-compose.yaml -f docker-compose.gamma.yaml up -d --force-recreate"
-                    sh "sleep 10" // Wait for the application to start
-                    // def response = sh(script: "curl -s -o /dev/null -w '%{http_code}' http://localhost:${GAMMA_PORT}/health", returnStdout: true).trim()
-                    // if (response != "200") {
-                        // error "Gamma health check failed with status ${response}"
-                    // }
+                    sh "docker-compose -f docker-compose.gamma.yaml up -d --force-recreate"
+                    sh "sleep 10"
+                    def response = sh(script: "curl -s -o /dev/null -w '%{http_code}' http://localhost:${GAMMA_PORT}/health", returnStdout: true).trim()
+                    if (response != "200") {
+                        error "Gamma health check failed with status ${response}"
+                    }
                 }
             }
         }
@@ -44,8 +43,8 @@ pipeline {
             steps {
                 input "Deploy to Production?"
                 script {
-                    sh "docker-compose -f docker-compose.yaml -f docker-compose.prod.yaml up -d --force-recreate"
-                    sh "sleep 10" // Wait for the application to start
+                    sh "docker-compose -f docker-compose.prod.yaml up -d --force-recreate"
+                    sh "sleep 10"
                     def response = sh(script: "curl -s -o /dev/null -w '%{http_code}' http://localhost:${PROD_PORT}/health", returnStdout: true).trim()
                     if (response != "200") {
                         error "Production health check failed with status ${response}"

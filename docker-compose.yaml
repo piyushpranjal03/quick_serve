@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image: quick_serve:latest
-    container_name: quick_serve
+    container_name: quick_serve_dev
     ports:
       - "8081:8081"
     volumes:
