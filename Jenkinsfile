@@ -22,7 +22,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh "docker-compose build --no-cache"
+                    sh "docker-compose build"
                 }
             }
         }
@@ -30,7 +30,6 @@ pipeline {
         stage('Gamma') {
             steps {
                 script {
-                    sh "docker-compose build --no-cache"
                     sh "docker-compose -f docker-compose.yaml -f docker-compose.gamma.yaml up -d --force-recreate"
                     sh "sleep 10" // Wait for the application to start
                     def response = sh(script: "curl -s -o /dev/null -w '%{http_code}' http://localhost:${GAMMA_PORT}/health", returnStdout: true).trim()
