@@ -52,6 +52,18 @@ pipeline {
                 }
             }
         }
+
+        stage('Cleanup') {
+            steps {
+                script {
+                    // Remove unused Docker images
+                    sh "docker image prune -af"
+                    
+                    // Optionally, you can also remove unused volumes
+                    sh "docker volume prune -f"
+                }
+            }
+        }
     }
 
     post {
