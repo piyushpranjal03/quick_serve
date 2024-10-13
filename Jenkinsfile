@@ -32,7 +32,7 @@ pipeline {
         stage('Gamma') {
             steps {
                 script {
-                    sh "docker-compose -f docker-compose.yaml -f docker-compose.gamma.yaml up -d --name ${GAMMA_CONTAINER_NAME}"
+                    sh "docker-compose -f docker-compose.yaml -f docker-compose.gamma.yaml up -d"
                     sh "sleep 10"
                     def response = sh(script: "curl -s -o /dev/null -w '%{http_code}' http://localhost:${GAMMA_PORT}/health", returnStdout: true).trim()
                     if (response != "200") {
